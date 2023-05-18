@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Catamaran', sans-serif;
+}
+
+header{
+    display: flex;
+    height: 90px;
+    width: 100%;
+    background-color: #e2e3e6;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+    position: sticky;
+    top: 0px;
+}
+
+.logoContainer{
+    height: 65px;
+    width: 150px;
+}
+
+.logo{
+    height: 100%;
+    width: 100%;
+    border-radius: 80px;
+}
+
+nav{
+    height: 100%;
+}
+
+.liContainer {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.liContainer li{
+    list-style: none;
+    font-size: 23px;
+    margin: 20px;
+}
+
+.liContainer a{
+    text-decoration: none;
+    color: #00355b;
+}
+
+.h2Promocion{
+    height: 23px;
+    width: 100%;
+    background-color: #e4b5ad;
+}
+
+.h2Promocion h2{
+    text-align: center;
+    font-size: 16px;
+    color: #00355b;
+}
+
+#carouselExample {
+    margin-top: 25px;
+}
+
+section{
+    height: 350px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.menuContainer{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menuContainer li{
+    list-style: none;
+    border-top: solid #e4b5ad;
+    border-bottom: solid #e4b5ad;
+}
+
+.menuContainer li img{
+    height: 250px;
+    width: 100%;
+    margin: 5px;
+}
+
+h1{
+    display: block;
+    color: #00355b;
+    text-align: center;
+}
+
+.SobreNosotros{
+    height: 250px;
+    width: 100%;
+    background-color: #e4b5ad;
+    border-radius: 80px;
+    overflow: hidden;
+}
+
+.SobreNosotros h2{
+    text-align: center;
+    color: #00355b;
+}
+
+.SobreNosotros p{
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.videoCroissants{
+    height: 400px;
+    width: 100%;
+    border-bottom:solid #00355b;
+    margin-top: 25px;
+}
+
+.videoCroissants h2{
+    text-align: center;
+    color: #00355b;
+    margin-bottom: 20px;
+}
+
+.videoCroissants .video{
+    margin-left: 25%;
+    border-left: solid #e4b5ad;
+    border-bottom: solid #e4b5ad;
+}
+
+footer{
+    height: 80px;
+    width: 100%;
+    background-color: #e2e3e6;
+}
+
+.footerContainer{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.redesContainer{
+    display: flex;
+    height: 100%;
+    width: 50%;
+    align-items: center;
+    justify-content:flex-end;
+}
+
+.redesContainer li{
+    list-style: none;
+    margin: 10px;
+}
+
+.redesContainer li a{
+    text-decoration: none;
+}
+
+.logoRedes{
+    height: 40px;
+    width: 40px;
+}
+
+.sticky{
+    height: 50px;
+    width: 50px;
+    position: sticky;
+    left: 95%;
+    bottom: 15px;
+}
+
+.mainContacto{
+    height: 500px;
+    width: 100%;
+}
+
+.mainContacto h2{
+    text-align: center;
+    margin: 15px;
+}
+
+.mainContacto p{
+    margin-left: 20px;
+}
+
+form{
+    height: 450px;
+    width: 50%;
+    margin-left: 20px;
+    border-bottom: solid #00355b;
+}
+
+.mainContacto form label{
+    display: block;
+}
+
+.mainContacto form input{
+    display: block;
+}
+
+.botonEnviar{
+    border-radius: 60px;
+    width: 100px;
+    padding: 3px;
+    background-color:#e4b5ad;
+    color: #00355b;
+}
+
+.mainSucursales{
+    height: 500px;
+    width: 100%;
+}
+
+.mainSucursales h2{
+    text-align: center;
+    color: #00355b;
+    margin: 10px;
+}
+
+.mainSucursales .mapa{
+    height: 100%;
+    width: 100%;
+}
+
+.mainPanaderia{
+    height: 500px;
+    width: 100%;
+}
+
+.mainPasteleria{
+    height: 500px;
+    width: 100%;
+}
