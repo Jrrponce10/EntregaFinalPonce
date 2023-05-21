@@ -6,23 +6,10 @@
 
 
 header{
-    display: flex;
-    height: 90px;
     width: 100%;
-    background-color: #e2e3e6;
-    justify-content: space-around;
-    align-items: center;
-    overflow: hidden;
-    position: sticky;
-    top: 0px;
 }
 
-.logoContainer{
-    height: 65px;
-    width: 150px;
-}
-
-.logo{
+.logo {
     height: 65px;
     width: 150px;
     border-radius: 80px;
@@ -32,22 +19,9 @@ nav{
     height: 100%;
 }
 
-.liContainer {
-    display: flex;
-    height: 100%;
-    width: 100%;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.liContainer li{
-    list-style: none;
+.navbar-nav li{
     font-size: 23px;
     margin: 20px;
-}
-
-.liContainer a{
-    text-decoration: none;
     color: #00355b;
 }
 
@@ -68,59 +42,68 @@ nav{
 }
 
 section{
-    height: 350px;
     width: 100%;
     margin-top: 30px;
 }
 
 .menuContainer{
-    height: 300px;
-    width: 100%;
     display: flex;
+    width: 100%;
     justify-content: space-around;
     align-items: center;
+    padding: 5px;
 }
 
 .menuContainer li{
     list-style: none;
-    border-top: solid #e4b5ad;
-    border-bottom: solid #e4b5ad;
 }
 
-.menuContainer li img{
+
+.fotoMenu {
     height: 250px;
-    width: 100%;
-    margin: 5px;
+    width: 250px;
 }
 
-h1{
+
+@media (max-width:900px) {
+    .menuContainer{
+        display: block;
+        text-align: center;
+    }
+    .menuContainer li{
+        margin: 10px 10px;
+    }
+}
+
+.section h1{
     display: block;
     color: #00355b;
     text-align: center;
 }
 
 .SobreNosotros{
-    height: 250px;
     width: 100%;
+    margin-top: 30px;
     background-color: #e4b5ad;
     border-radius: 80px;
     overflow: hidden;
 }
 
 .SobreNosotros h2{
+    margin-top: 20px;
     text-align: center;
     color: #00355b;
 }
 
 .SobreNosotros p{
-    margin-top: 30px;
+    margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
     text-align: center;
 }
 
 .videoCroissants{
-    height: 400px;
+    height: 600px;
     width: 100%;
     border-bottom:solid #00355b;
     margin-top: 25px;
@@ -133,7 +116,9 @@ h1{
 }
 
 .videoCroissants .video{
-    margin-left: 25%;
+    margin-left: 10%;
+    height: 80%;
+    width: 80%;
     border-left: solid #e4b5ad;
     border-bottom: solid #e4b5ad;
 }
@@ -167,6 +152,7 @@ footer{
 
 .redesContainer li a{
     text-decoration: none;
+
 }
 
 .logoRedes{
