@@ -1,0 +1,38 @@
+.mainContacto{
+    height: 500px;
+    width: 100%;
+    h2{
+        text-align: center;
+        margin: 15px;
+    }
+    p{
+        margin-left: 20px;
+    }
+    form{
+        label{
+            display: block;
+        }
+        input{
+            display: block;
+        }
+    }
+}
+
+form{
+    height: 450px;
+    width: 50%;
+    margin-left: 20px;
+    border-bottom: solid #00355b;
+}
+
+.botonEnviar{
+    border-radius: 60px;
+    width: 100px;
+    padding: 3px;
+    background-color:#e4b5ad;
+    color: #00355b;
+}
+
+
+
+

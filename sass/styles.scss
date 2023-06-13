@@ -1,0 +1,15 @@
+@use 'index';
+@use 'contacto';
+
+@media (max-width:900px) {
+    .menuContainer{
+        display: block;
+        text-align: center;
+    }
+    .menuContainer li{
+        margin: 10px 10px;
+    }
+}
+
+
+

@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Catamaran', sans-serif;
+}
+
+header{
+    width: 100%;
+}
+
+.logo {
+    height: 65px;
+    width: 150px;
+    border-radius: 80px;
+}
+
+nav{
+    height: 100%;
+}
+
+.navbar-nav{
+    li{
+        font-size: 23px;
+    margin: 20px;
+    color: #00355b;
+    }
+}
+
+.h2Promocion{
+    height: 23px;
+    width: 100%;
+    background-color: #e4b5ad;
+    h2{
+        text-align: center;
+        font-size: 16px;
+        color: #00355b;
+    }
+}
+
+#carouselExample {
+    margin-top: 25px;
+}
+
+section{
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    h1{
+        display: block;
+        color: #00355b;
+        text-align: center;
+    }
+}
+
+.menuContainer{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    li{
+        list-style: none;
+    }
+}
+
+.fotoMenu {
+    height: 250px;
+    width: 250px;
+}
+
+
+.menuContainer{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    li{
+        list-style: none;
+    }
+}
+
+.SobreNosotros{
+    width: 100%;
+    margin-top: 30px;
+    background-color: #e4b5ad;
+    border-radius: 80px;
+    overflow: hidden;
+    h2{
+        margin-top: 20px;
+        text-align: center;
+        color: #00355b;
+    }
+    p{
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: center;
+    }
+}
+
+.videoCroissants{
+    height: 600px;
+    width: 100%;
+    border-bottom:solid #00355b;
+    margin-top: 25px;
+    h2{
+        text-align: center;
+        color: #00355b;
+        margin-bottom: 20px;
+    }
+    .video{
+        margin-left: 10%;
+        height: 80%;
+        width: 80%;
+        border-left: solid #e4b5ad;
+        border-bottom: solid #e4b5ad;
+    }
+}
+
+footer{
+    height: 80px;
+    width: 100%;
+    background-color: #e2e3e6;
+}
+
+.footerContainer{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.redesContainer{
+    display: flex;
+    height: 100%;
+    width: 50%;
+    align-items: center;
+    justify-content:flex-end;
+    li{
+        list-style: none;
+        margin: 10px;
+        a{
+            text-decoration: none;
+        
+        }
+    }
+}
+
+.logoRedes{
+    height: 40px;
+    width: 40px;
+}
+
+.sticky{
+    height: 50px;
+    width: 50px;
+    position: sticky;
+    left: 95%;
+    bottom: 15px;
+}
+
+
