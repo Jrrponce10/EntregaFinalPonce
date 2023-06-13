@@ -80,7 +80,7 @@ section h1 {
 .SobreNosotros {
   width: 100%;
   margin-top: 30px;
-  background-color: #e4b5ad;
+  background-image: linear-gradient(90deg, rgb(228, 181, 173) 49%, rgb(0, 212, 255) 100%);
   border-radius: 80px;
   overflow: hidden;
 }
@@ -190,15 +190,6 @@ form {
   color: #00355b;
 }
 
-@media (max-width: 900px) {
-  .menuContainer {
-    display: block;
-    text-align: center;
-  }
-  .menuContainer li {
-    margin: 10px 10px;
-  }
-}
 .mainSucursales {
   height: 500px;
   width: 100%;
@@ -211,6 +202,16 @@ form {
 .mainSucursales .mapa {
   height: 100%;
   width: 100%;
+}
+
+@media (max-width: 900px) {
+  .menuContainer {
+    display: block;
+    text-align: center;
+  }
+  .menuContainer li {
+    margin: 10px 10px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
