@@ -60,12 +60,16 @@ section{
     padding: 5px;
     li{
         list-style: none;
+        :hover{
+            transform: scale(1.1);
+    }
     }
 }
 
 .fotoMenu {
     height: 250px;
     width: 250px;
+    transition: transform 1s;
 }
 
 
